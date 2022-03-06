@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background: #fafafa;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="demo"></div>
+
+    <script type="module">
+      import { html, render } from 'lit';
+      import '../dist/src/lit-material-input.js';
+
+      const type = 'input';
+      const label = 'Material Design Input';
+
+      const valueChanged = e => {
+        console.log(e.detail.value);
+      };
+
+      render(
+        html`
+          <lit-material-input
+            .type=${type}
+            .label=${label}
+            @val-change=${valueChanged}
+          >
+          </lit-material-input>
+        `,
+        document.querySelector('#demo')
+      );
+    </script>
+  </body>
+</html>
