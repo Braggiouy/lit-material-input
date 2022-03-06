@@ -2,6 +2,11 @@
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
+## Preview
+
+![alt text](https://github.com/Braggiouy/lit-material-input/blob/main/demo/ScreenShot.png?raw=true)
+
+
 ## Installation
 
 ```bash
