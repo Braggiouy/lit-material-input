@@ -65,3 +65,9 @@ npm start
 ```
 
 To run a local development server that serves the basic demo located in `demo/index.html`
+
+<a href="https://badges.pufler.dev">
+    <img align="right" src="https://badges.pufler.dev/visits/Braggiouy/lit-material-input?color=gold" alt="Visitors badge" />
+ </a>
+
+
